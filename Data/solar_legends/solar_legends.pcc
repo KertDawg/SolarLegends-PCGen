@@ -4,7 +4,7 @@ GENRE:Pulp
 BOOKTYPE:Core Rules
 #SETTING:Pulp SciFi
 TYPE:Emrich Consulting, LLC.Pulp SciFi
-PRECAMPAIGN:1,BOOKTYPE=Core Rules
+#PRECAMPAIGN:1,BOOKTYPE=Core Rules
 PUBNAMELONG:Emrich Consulting, LLC
 PUBNAMESHORT:Battlefield
 PUBNAMEWEB:https://solarlegends.kertdawg.net
@@ -13,6 +13,7 @@ SOURCESHORT:SolarLegends
 SOURCEWEB:https://solarlegends.kertdawg.net
 SOURCEDATE:2024-04
 RANK:202404
+SHOWINMENU:YES
 ISOGL:NO
 COPYRIGHT:Copyright 2024 Emrich Consulting, LLC
 
@@ -29,6 +30,11 @@ SKILL:solar_legends_skills.lst
 STAT:solar_legends_stats.lst
 LANGUAGE:solar_legends_languages.lst
 ALIGNMENT:solar_legends_align.lst
+CLASS:solar_legends_careers.lst
+#DEITY:solar_legends_deities.lst
+#DOMAIN:solar_legends_domains.lst
+
+DATACONTROL:solar_legends_datacontrols.lst
 
 #EXTRAFILE:OGL.txt
 

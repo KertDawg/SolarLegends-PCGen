@@ -1,0 +1,24 @@
+
+
+
+# Darwin's World, Gaslight, Immortal, Killshot, Modern, Sidewinder, Spycraft - No Alignment
+
+#COMMENT: Formula System Defaults
+DEFAULTVARIABLEVALUE:ORDEREDPAIR|0,0
+DEFAULTVARIABLEVALUE:NUMBER|0
+DEFAULTVARIABLEVALUE:DICE|0
+DEFAULTVARIABLEVALUE:BOOLEAN|False
+DEFAULTVARIABLEVALUE:STRING|
+
+FACTDEF:RACE|BaseSize	DATAFORMAT:SIZEADJUSTMENT	VISIBLE:YES	REQUIRED:NO	EXPLANATION:All Races must have a Size - in the case of multiple sizes, use the SMALLEST allowed.
+
+
+# Name				Dataformat			Required	Selectable		Visible	Displayname		Explanation
+FACTDEF:ABILITY|AppliedName	DATAFORMAT:String							VISIBLE:YES
+
+FACTDEF:EQUIPMENT|RateOfFire	DATAFORMAT:String							VISIBLE:YES
+
+
+# Name						Dataformat				Required	Selectable		Visible	Explanation
+DEFAULTVARIABLEVALUE:ALIGNMENT|None
+DEFAULTVARIABLEVALUE:HANDED|Right
