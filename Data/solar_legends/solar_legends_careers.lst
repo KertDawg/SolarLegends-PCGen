@@ -1,3 +1,3 @@
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rocket Pilot	HD:10		TYPE:Base.PC	MAXLEVEL:20	EXCLASS:Ex Pilot		DEFINE:RocketPilotLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE			BONUS:VAR|RocketPilotLVL|CL	ROLE:Combat		FACT:ClassType|PC	FACT:Abb|Plt
+CLASS:Rocket Pilot	HD:10		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt

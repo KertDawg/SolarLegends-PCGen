@@ -3,5 +3,5 @@ SOURCELONG:Solar Legends Core Rules	SOURCESHORT:SOL	SOURCEWEB:https://solarlegen
 # Race Name	Favored Class			Skills/Level		Starting Feats	Size		Move			Face/Space	Reach		Bonus Languages		Main Race Type	Type			Challenge Rating	Source Page
 #COMMENT: This is to replace the UI 'None Selected'. This is a core assumption race, this MUST be used in every system.
 <none selected>	KEY:None Selected	GROUP:UNSELECTED	FACT:BaseSize|M	TYPE:Humanoid
-Human		FAVCLASS:HIGHESTLEVELCLASS	XTRASKILLPTSPERLVL:1	STARTFEATS:2	SIZE:M	MOVE:Walk,30	FACE:5,5	REACH:5		RACETYPE:Humanoid	TYPE:Humanoid	CR:1/2		SOURCEPAGE:msrdcreatures	FACT:BaseSize|M
+Human		FAVCLASS:HIGHESTLEVELCLASS	XTRASKILLPTSPERLVL:1	STARTFEATS:2	SIZE:M	MOVE:Walk,30	FACE:5,5	REACH:5		RACETYPE:Humanoid	TYPE:Humanoid	CR:1/2			FACT:BaseSize|M
 
