@@ -1,0 +1,67 @@
+# Ability Name			Output Name			Category of Ability		Type						Visible	Special ABility																										Define
+Default								CATEGORY:Internal
+
+# Ability Name			Output Name			Category of Ability		Type						Visible	Special ABility																										Define
+#Ability Surge							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Ability Surge (Ex)|PREVAREQ:AbilitySurge,0	SAB:Ability Surge %/day|AbilitySurge|PREVARGT:AbilitySurge,0										DEFINE:AbilitySurge|0
+#Absrobe								CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Absrobe (Ex)
+#Acid									CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Acid (Ex)
+
+###Block: Unnamed special abilities
+# Ability Name				Output Name																																																		Category of Ability		Type						Visible	Special ABility																																																Define
+#Bonus on Bluff Checks			OUTPUTNAME:+5 species bonus on Bluff checks when attempting to pass itself off as its human host																																			CATEGORY:Special Ability	TYPE:RacialTrait				VISIBLE:NO	SAB:+5 species bonus on Bluff checks when attempting to pass itself off as its human host
+
+###Block: Creature Type and Subtype Traits
+# Ability Name			Category of Ability		Visible	Special ABility																																									Description
+#Aquatic Traits			CATEGORY:Special Ability	VISIBLE:NO	SAB:Can move in water without making Swim checks, and cannot drown in water
+
+###Block: Negative Levels
+# Ability Name	Category of Ability		Visible	Special ABility																							Define			Combat bonus				Save bonus							Bonus to skill																		Source Page
+#Negative Levels	CATEGORY:Special Ability	VISIBLE:NO	SAB:% negative level(s) (-% effective level(s) and loses access to % spell(s) from the highest spell level castable)|NegLevels|NegLevels|NegLevels	DEFINE:NegLevels|0	BONUS:COMBAT|TOHIT|-1*NegLevels	BONUS:SAVE|Fortitude,Reflex,Will|-1*NegLevels	BONUS:SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-1*NegLevels	SOURCEPAGE:msrdspecialabilities
+
+###Block: Standard Immunities
+# Ability Name		Category of Ability		Type								Visible	Special ABility				Description
+#Immunity To Acid		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:NO	SAB:Immunity to Acid (Ex)		DESC:You never take Acid damage
+
+###Block: Other Immunities
+# Ability Name							Category of Ability		Type								Visible	Special ABility																Description
+#Immunity To Ability Damage					CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:NO	SAB:Immunity to Ability Damage (Ex)
+
+###Block: Standard Resistances
+# Ability Name			Category of Ability		Visible	Define					Ability
+#Resistance To Acid		CATEGORY:Special Ability	VISIBLE:NO	DEFINE:AcidResistanceBonus|0		ABILITY:Special Ability|VIRTUAL|Resistance To Acid Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Acid,Vulnerability To Acid
+
+###Block: Resistances Output
+# Ability Name				Output Name						Category of Ability		Type								Visible	Special ABility								Description
+#Resistance To Acid Output		OUTPUTNAME:Resistance To Acid			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO	SAB:Resistance To Acid %|AcidResistanceBonus			DESC:You may ignore %1 points of Acid damage each time you take Acid damage|AcidResistanceBonus
+
+###Block: Other Resistances
+# Ability Name				Category of Ability		Type								Visible	Special ABility
+#Resistance To Massive Damage		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO	SAB:Resistance to Massive Damage
+
+###Block: Standard Vulnerabilities
+# Ability Name			Category of Ability		Type								Visible	Special ABility				Description
+#Vulnerability To Acid		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:NO	SAB:Vulnerability To Acid		DESC:You take half again as much (+50%%) damage as normal from Acid, regardless of whether a saving throw is allowed, or if the save is a success or failure
+
+###Block: Other Vulnerabilities
+# Ability Name			Category of Ability		Type								Visible	Special ABility
+#Vulnerability To Sunlight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:NO	SAB:Vulnerability To Sunlight (Ex)
+
+###Block: Dragon Abilities
+# Ability Name					Category of Ability		Type						Visible	Special ABility																																			Define
+#Breath Weapon ~ Line of Electricity		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:NO	SAB:Breath Weapon (Su) - Line of Electricity (% ft long, %d% pts of damage, Ref save (DC %) for half)|BreathWeaponRange|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC									DEFINE:BreathWeaponRange|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0
+
+#Tail Sweep						CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Tail Sweep (Ex) (% ft radius, %d%+%, Ref Save (DC %) for half)|TailSweepRadius|TailSweepDice|TailSweepDamageDie|TailSweepBonusDamage|TailSweepDC													DEFINE:TailSweepRadius|0	DEFINE:TailSweepDice|0	DEFINE:TailSweepDamageDie|0	DEFINE:TailSweepBonusDamage|0	DEFINE:TailSweepDC|0
+#Fear Aura						CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Fear Aura % ft (Ex) (Will save DC %)|FearAuraRange|FearAuraDC																											DEFINE:FearAuraRange|0	DEFINE:FearAuraDC|0
+#Crush							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Crush %d%+% (Ex) (Ref save DC %)|CrushDice|CrushDamageDie|CrushBonusDamage|CrushDC																							DEFINE:CrushDice|0	DEFINE:CrushDamageDie|0	DEFINE:CrushBonusDamage|0	DEFINE:CrushDC|0
+
+###Block: Specific Creature Abilities
+# Ability Name				Output Name																			Category of Ability		Type						Visible	Special ABility																											Define							Modify VAR
+#Roach Thrall Disguise Checks		OUTPUTNAME:+10 species bonus on Disguise checks in human host										CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO	SAB:+10 species bonus on Disguise checks in human host
+
+###Block: Toxyderm Breath Weapons
+# Ability Name				Output Name				Category of Ability		Type						Visible	Special ABility
+#Chemical Toxyderm Breath Weapon	OUTPUTNAME:Breath Weapon	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Breath Weapon (Ex) ~ 50 ft cone, 15d6 points of damage, Ref save (DC %) for half|10+TL/2+CON
+
+###Block: Extraterrestial Poisonous Bite
+# Ability Name						Output Name				Category of Ability		Type						Visible	Special ABility																	Description
+#Extraterrestial Poisonous Bite ~ Cha		OUTPUTNAME:Poisonous Bite	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Poisonous Bite, Cha damage (Ex) - 2d4 initial, 2d4 secondary, Fort save (DC %) to negate|10+TL/2+CON		DESC:Cha damage - 2d4 initial, 2d4 secondary, Fort save (DC %1) to negate|10+(TL/2)+CON

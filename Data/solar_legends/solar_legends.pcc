@@ -34,6 +34,9 @@ CLASS:solar_legends_careers.lst
 #DEITY:solar_legends_deities.lst
 #DOMAIN:solar_legends_domains.lst
 
+ABILITY:solar_legends_abilities_career.lst
+ABILITY:solar_legends_abilities_origin.lst
+
 DATACONTROL:solar_legends_datacontrols.lst
 
 #EXTRAFILE:OGL.txt
