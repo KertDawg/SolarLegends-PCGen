@@ -29,7 +29,7 @@ SIZE:solar_legends_sizes.lst
 SKILL:solar_legends_skills.lst
 STAT:solar_legends_stats.lst
 LANGUAGE:solar_legends_languages.lst
-ALIGNMENT:solar_legends_align.lst
+#ALIGNMENT:solar_legends_align.lst
 CLASS:solar_legends_careers.lst
 #DEITY:solar_legends_deities.lst
 #DOMAIN:solar_legends_domains.lst
@@ -42,7 +42,7 @@ DATACONTROL:solar_legends_datacontrols.lst
 
 #EXTRAFILE:OGL.txt
 
-#EQUIPMENT:rocketrangers_equip.lst
+EQUIPMENT:solar_legends_equip.lst
 #EQUIPMENT:rocketrangers_equip_armor.lst
 #EQUIPMENT:rocketrangers_equip_vehicles.lst
 #EQUIPMENT:rocketrangers_equip_weap_ranged.lst
