@@ -1,0 +1,6 @@
+
+#MEDIUM ----------------------------------------------------------------------------------------------------------
+Mono Knife									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Simple.Melee.Standard.Piercing								COST:200	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
+Mono Sword								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Simple.Melee.Standard.Piercing								COST:2000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
+Polearm				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Simple.Melee.Bludgeoning.Standard										COST:100	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+

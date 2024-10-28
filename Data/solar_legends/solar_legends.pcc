@@ -43,9 +43,11 @@ DATACONTROL:solar_legends_datacontrols.lst
 #EXTRAFILE:OGL.txt
 
 EQUIPMENT:solar_legends_equip.lst
-#EQUIPMENT:rocketrangers_equip_armor.lst
+#EQUIPMENT:solar_legends_equip_armor.lst
 #EQUIPMENT:rocketrangers_equip_vehicles.lst
-#EQUIPMENT:rocketrangers_equip_weap_ranged.lst
+EQUIPMENT:solar_legends_equip_weap_melee.lst
+EQUIPMENT:solar_legends_equip_weap_ranged.lst
+EQUIPMENT:solar_legends_equip_weap_ammo.lst
 #EQUIPMOD:rocketrangers_equipmods.lst
 #KIT:rocketrangers_kits_defaultmonsters.lst
 #RACE:solar_legends_origins.lst
