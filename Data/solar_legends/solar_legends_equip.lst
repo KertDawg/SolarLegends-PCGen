@@ -12,8 +12,9 @@ Smokestick				TYPE:Goods.Alchemical.Consumable				COST:20			EQMOD:WOOD
 # Equipment Name		Type					Cost		Weight	Modifier	Source Page				Special Property
 Outfit (Cold Wather)	TYPE:Goods.Clothing.Resizable	COST:12	WT:4		EQMOD:CLOTH	
 Outfit (Modern Fashion)	TYPE:Goods.Clothing.Resizable	COST:6	WT:4		EQMOD:CLOTH	
-Outfit (Student)	TYPE:Goods.Clothing.Resizable	COST:3	WT:7		EQMOD:CLOTH		
+Outfit (Pilot's Outfit)	TYPE:Goods.Clothing.Resizable	COST:20	WT:4		EQMOD:CLOTH	
 Outfit (Professional)	TYPE:Goods.Clothing.Resizable	COST:8	WT:6		EQMOD:CLOTH	
+Outfit (Student)	TYPE:Goods.Clothing.Resizable	COST:3	WT:7		EQMOD:CLOTH		
 Outfit (Laborer)	TYPE:Goods.Clothing.Resizable	COST:3	WT:4		EQMOD:CLOTH	
 Outfit (Uniform)	TYPE:Goods.Clothing.Resizable	COST:1	WT:8		EQMOD:CLOTH	
 
