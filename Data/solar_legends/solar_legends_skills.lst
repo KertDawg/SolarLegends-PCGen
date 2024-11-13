@@ -12,73 +12,70 @@ SOURCELONG:Solar Legends Core Rules	SOURCESHORT:SOL	SOURCEWEB:https://solarlegen
 # - Tir Gwaith
 
 # Skill Name				Key Stat	Untrained?		Skill Penalty?	Type						Visible		Source Page				Choose				Bonus to skill							Modify VAR										Auto Language
-Balance					KEYSTAT:DEX				ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsi
-Bluff						KEYSTAT:CHA							TYPE:Charisma							SOURCEPAGE:msrdskillsi
-Climb						KEYSTAT:STR				ACHECK:YES		TYPE:Strength							SOURCEPAGE:msrdskillsi							BONUS:SKILL|Climb|8|PREMOVE:1,Climb=1|TYPE=Racial
-Computer Use				KEYSTAT:INT							TYPE:Intelligence							SOURCEPAGE:msrdskillsi
-Concentration				KEYSTAT:CON							TYPE:Constitution							SOURCEPAGE:msrdskillsi
-Control Shape				KEYSTAT:WIS	USEUNTRAINED:NO				TYPE:Wisdom								SOURCEPAGE:msrdcreatures
-Craft (Chemical)				KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Electronic)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Mechanical)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Pharmaceutical)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Structural)			KEYSTAT:INT							TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Visual Art)			KEYSTAT:INT							TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Craft (Writing)				KEYSTAT:INT							TYPE:Intelligence.Craft						SOURCEPAGE:msrdskillsi
-Decipher Script				KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							SOURCEPAGE:msrdskillsi
-Demolitions					KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							SOURCEPAGE:msrdskillsi
-Diplomacy					KEYSTAT:CHA							TYPE:Charisma							SOURCEPAGE:msrdskillsi
-Disable Device				KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							SOURCEPAGE:msrdskillsi
-Disguise					KEYSTAT:CHA							TYPE:Charisma							SOURCEPAGE:msrdskillsi
-Drive						KEYSTAT:DEX							TYPE:Dexterity							SOURCEPAGE:msrdskillsi
-Escape Artist				KEYSTAT:DEX				ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsi
-Forgery					KEYSTAT:INT							TYPE:Intelligence							SOURCEPAGE:msrdskillsi
-Gamble					KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsi
-Gather Information			KEYSTAT:CHA							TYPE:Charisma							SOURCEPAGE:msrdskillsii
-Handle Animal				KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma							SOURCEPAGE:msrdskillsii
-Hide						KEYSTAT:DEX				ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsii
-Intimidate					KEYSTAT:CHA							TYPE:Charisma							SOURCEPAGE:msrdskillsii
-Investigate					KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							SOURCEPAGE:msrdskillsii
-Jump						KEYSTAT:STR				ACHECK:YES		TYPE:Strength							SOURCEPAGE:msrdskillsii
-Knowledge (Arcane Lore)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Art)				KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Behavioral Sciences)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge.Science				SOURCEPAGE:msrdskillsii
-Knowledge (Business)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Civics)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Current Events)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Earth and Life Sciences)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge.Science				SOURCEPAGE:msrdskillsii
-Knowledge (History)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Physical Sciences)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge.Science				SOURCEPAGE:msrdskillsii
-Knowledge (Popular Culture)		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Streetwise)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Tactics)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Technology)			KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Knowledge (Theology and Philosophy)	KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Knowledge					SOURCEPAGE:msrdskillsii
-Listen					KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsii
-Move Silently				KEYSTAT:DEX				ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsii
-Navigate					KEYSTAT:INT							TYPE:Intelligence							SOURCEPAGE:msrdskillsii
-# Set up Perform to only display if Rank>0, otherwise you have eight skills display with the exact same values. Added Perform (Untrained) to replace those.
-Perform (Untrained)			KEYSTAT:CHA							TYPE:Charisma				VISIBLE:EXPORT	SOURCEPAGE:msrdskillsii
-Perform (Act)				KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Dance)				KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Keyboards)			KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Percussion Instruments)	KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Sing)				KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Stand-Up)			KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Stringed Instruments)	KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Perform (Wind Instruments)		KEYSTAT:CHA	USEUNTRAINED:NO				TYPE:Charisma.Perform						SOURCEPAGE:msrdskillsii
-Pilot						KEYSTAT:DEX	USEUNTRAINED:NO				TYPE:Dexterity							SOURCEPAGE:msrdskillsii
-Profession					KEYSTAT:WIS							TYPE:Wisdom.Profession						SOURCEPAGE:msrdskillsii																BONUS:VAR|WealthBonus|ceil(min(var("SKILLRANK=Profession"),23)/5)
-Read/Write Language					USEUNTRAINED:NO				TYPE:None.Language						SOURCEPAGE:msrdskillsii		CHOOSE:LANG|TYPE=Written																					AUTO:LANG|%LIST
-Repair					KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							SOURCEPAGE:msrdskillsii
-Research					KEYSTAT:INT							TYPE:Intelligence							SOURCEPAGE:msrdskillsii
-Ride						KEYSTAT:DEX							TYPE:Dexterity							SOURCEPAGE:msrdskillsii
-Search					KEYSTAT:INT							TYPE:Intelligence							SOURCEPAGE:msrdskillsii
-Sense Motive				KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsii
-Sleight of Hand				KEYSTAT:DEX	USEUNTRAINED:NO	ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsii
-Speak Language						USEUNTRAINED:NO				TYPE:None.Language						SOURCEPAGE:msrdskillsii		CHOOSE:LANG|TYPE=Spoken																						AUTO:LANG|%LIST
-Spot						KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsii
-Survival					KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsii
-Swim						KEYSTAT:STR				ACHECK:YES		TYPE:Strength							SOURCEPAGE:msrdskillsii							BONUS:SKILL|Swim|8|PREMOVE:1,Swim=1|TYPE=Racial
-Treat Injury				KEYSTAT:WIS							TYPE:Wisdom								SOURCEPAGE:msrdskillsii
-Tumble					KEYSTAT:DEX	USEUNTRAINED:NO	ACHECK:YES		TYPE:Dexterity							SOURCEPAGE:msrdskillsii
+Acrobatics					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Animal Empathy					KEYSTAT:CHA	USEUNTRAINED:NO					TYPE:Charisma							
+Astrogation					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence		PRESKILL:2,Astronomy=4,Mathematics=5					
+Astronomy					KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence							
+Battle Tactics					KEYSTAT:DEX						TYPE:Dexterity							
+Bypass Security					KEYSTAT:TECH						TYPE:Technical							
+Climb					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Communications Operation					KEYSTAT:TECH						TYPE:Technical							
+Cryptography					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence		PRESKILL:1,Mathematics=4					
+Demolitions					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical							
+Design Engineering					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence	    PRESKILL:2,Physics=2,MatheMatics=2					
+Diagnose					KEYSTAT:INT						TYPE:Intelligence							
+Disguise					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence							
+Distract					KEYSTAT:CHA						TYPE:Charisma							
+Drive Groundcar					KEYSTAT:DEX						TYPE:Dexterity							
+Drive Heavy Ground Vehicle					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Drive Jetcar					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Drive Motorcycle					KEYSTAT:DEX						TYPE:Dexterity							
+Etiquette					KEYSTAT:CHA						TYPE:Charisma							
+Fast Talk / Convince					KEYSTAT:CHA						TYPE:Charisma							
+First Aid					KEYSTAT:TECH						TYPE:Technical							
+Handle Animal					KEYSTAT:CHA						TYPE:Charisma							
+Hide					KEYSTAT:DEX						TYPE:Dexterity							
+Hypnosis					KEYSTAT:CHA	USEUNTRAINED:NO					TYPE:Charisma							
+Intimidate					KEYSTAT:CHA						TYPE:Charisma							
+Jury Rig					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical		PRESKILL:2,Repair Mechanical=2,Repair Electrical=2					
+Knowledge					KEYSTAT:DEX						TYPE:Dexterity							
+Leadership					KEYSTAT:CHA						TYPE:Charisma							
+Library Search					KEYSTAT:INT						TYPE:Intelligence							
+Life Suspension Technology					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence							
+Maneuver in Zero G					KEYSTAT:DEX						TYPE:Dexterity							
+Mathematics					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence							
+Memorize					KEYSTAT:INT						TYPE:Intelligence							
+Mimic					KEYSTAT:INT						TYPE:Intelligence							
+Move Silently					KEYSTAT:DEX						TYPE:Dexterity							
+Navigation					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence		PRESKILL:1,Astronomy=3					
+Notice					KEYSTAT:WIS						TYPE:Wisdom							
+Open Lock					KEYSTAT:TECH						TYPE:Techinal							
+Physics					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence							
+Pick Pocket					KEYSTAT:DEX						TYPE:Dexterity							
+Pilot Fixed Wing Craft					KEYSTAT:DEX						TYPE:Dexterity							
+Pilot Rocket					KEYSTAT:DEX						TYPE:Dexterity							
+Pilot Rotorwing Craft					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Pilot Ship / Submarine					KEYSTAT:DEX	USEUNTRAINED:NO					TYPE:Dexterity							
+Planetary Survival					KEYSTAT:WIS	USEUNTRAINED:NO					TYPE:Wisdom		PRESKILL:1,Planetology=2					
+Planetology					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence							
+Programming					KEYSTAT:INT	USEUNTRAINED:NO					TYPE:Intelligence		PRESKILL:1,Mathematics=2					
+Read Lips					KEYSTAT:WIS						TYPE:Wisdom							
+Repair Computer					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical		PRESKILL:1,Repair Electrical=8					
+Repair Electrical					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical							
+Repair Life Support					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical		PRESKILL:2,Repair Mechanical=5,Repair Electrical=6					
+Repair Mechanical					KEYSTAT:TECH						TYPE:Technical							
+Repair Nuclear Engine					KEYSTAT:TECH	USEUNTRAINED:NO					TYPE:Technical		PRESKILL:1,Repair Mechanical=2					
+Repair Rocket Hull					KEYSTAT:TECH						TYPE:Technical		PRESKILL:1,Repair Mechanical=2					
+Repair Weapon					KEYSTAT:TECH						TYPE:Technical							
+Ride					KEYSTAT:DEX						TYPE:Dexterity							
+Sensor Operation					KEYSTAT:TECH						TYPE:Techinal							
+Shadowing					KEYSTAT:WIS						TYPE:Wisdom							
+Speak / Read Language					KEYSTAT:INT						TYPE:Intelligence							
+Tracking					KEYSTAT:WIS						TYPE:Wisdom							
+Treat Critical Wounds					KEYSTAT:INT						TYPE:Intelligence		PRESKILL:1,Treat Serious Wounds=8					
+Treat Disease					KEYSTAT:INT						TYPE:Intelligence		PRESKILL:1,Diagnose=5					
+Treat Light Wounds					KEYSTAT:INT						TYPE:Intelligence							
+Treat Poisoning					KEYSTAT:INT						TYPE:Intelligence		PRESKILL:1,Diagnose=3					
+Treat Serious Wounds					KEYSTAT:INT						TYPE:Intelligence		PRESKILL:1,Treat Light Wounds=6					
+Treat Stun / Paralysis					KEYSTAT:INT						TYPE:Intelligence		PRESKILL:1,Treat Light Wounds=6					
+Use Rocket Belt					KEYSTAT:DEX						TYPE:Dexterity							
