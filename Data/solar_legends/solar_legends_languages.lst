@@ -1,5 +1,5 @@
 
 # Spoken
 # Language				Unique Key						Type					Source Page
-English											TYPE:Spoken.Germanic		SOURCEPAGE:msrdskillsii
-English				KEY:English ~ Written				TYPE:Written.Germanic		SOURCEPAGE:msrdskillsii
+English				KEY:English ~ Spoken							TYPE:Spoken		
+English				KEY:English ~ Written				TYPE:Written		
