@@ -1,6 +1,6 @@
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:4	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing|Pilot Rocket|Pilot Rotorwing Craft|User Rocket Belt
+CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:4	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
 
 ###Block: BAB
 1	BONUS:COMBAT|BASEAB|0
