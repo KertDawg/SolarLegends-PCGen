@@ -26,3 +26,47 @@ Grenade Launcher									PROFICIENCY:WEAPON|Grenade Launcher		TYPE:Weapon.Simple
 Rocket Launcher									PROFICIENCY:WEAPON|Rocket Launcher		TYPE:Weapon.Simple.Ranged.Standard			CONTAINS:UNLIM|Charge		COST:1000	WT:30				CRITMULT:x2	CRITRANGE:1	DAMAGE:5d10			RANGE:250	SIZE:M	
 Plasma Thrower									PROFICIENCY:WEAPON|Plasma Thrower		TYPE:Weapon.Simple.Ranged.Standard			CONTAINS:UNLIM|Charge		COST:800	WT:35				CRITMULT:x2	CRITRANGE:1	DAMAGE:4d10			RANGE:100	SIZE:M	
 
+Laser Pistol (Martian)									PROFICIENCY:WEAPON|Laser Pistol		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:600	WT:1				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8+1			RANGE:200	SIZE:M	
+Laser Rifle (Martian)									PROFICIENCY:WEAPON|Laser Rifle		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:1200	WT:5				CRITMULT:x2	CRITRANGE:2	DAMAGE:1d12+1			RANGE:750	SIZE:M	
+Rocket Pistol (Martian)									PROFICIENCY:WEAPON|Rocket Pistol		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:800	WT:3				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+1			RANGE:100	SIZE:M	
+Rocket Rifle (Martian)									PROFICIENCY:WEAPON|Rocket Rifle		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:1000	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8+1			RANGE:500	SIZE:M	
+Needle Gun (Martian)									PROFICIENCY:WEAPON|Needle Gun		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:400	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3+1			RANGE:75	SIZE:M	
+Bolt Gun (Martian)									PROFICIENCY:WEAPON|Bolt Gun		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:500	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4+1			RANGE:100	SIZE:M	
+Heat Gun (Martian)									PROFICIENCY:WEAPON|Heat Gun		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:800	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d6+1			RANGE:15	SIZE:M	
+Microwave Gun (Martian)									PROFICIENCY:WEAPON|Microwave Gun		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:700	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+1			RANGE:100	SIZE:M	
+Rocket Launcher (Martian)									PROFICIENCY:WEAPON|Rocket Launcher		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:2000	WT:30				CRITMULT:x2	CRITRANGE:1	DAMAGE:5d10+1			RANGE:250	SIZE:M	
+Plasma Thrower (Martian)									PROFICIENCY:WEAPON|Plasma Thrower		TYPE:Weapon.Simple.Ranged.Martian			CONTAINS:UNLIM|Charge		COST:1600	WT:35				CRITMULT:x2	CRITRANGE:1	DAMAGE:4d10+1			RANGE:100	SIZE:M	
+
+Laser Pistol (Venusian)									PROFICIENCY:WEAPON|Laser Pistol		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:600	WT:1				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8+2			RANGE:200	SIZE:M	
+Laser Rifle (Venusian)									PROFICIENCY:WEAPON|Laser Rifle		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:1200	WT:5				CRITMULT:x2	CRITRANGE:2	DAMAGE:1d12+2			RANGE:750	SIZE:M	
+Rocket Pistol (Venusian)									PROFICIENCY:WEAPON|Rocket Pistol		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:800	WT:3				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+2			RANGE:100	SIZE:M	
+Rocket Rifle (Venusian)									PROFICIENCY:WEAPON|Rocket Rifle		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:1000	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8+2			RANGE:500	SIZE:M	
+Needle Gun (Venusian)									PROFICIENCY:WEAPON|Needle Gun		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:400	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3+2			RANGE:75	SIZE:M	
+Bolt Gun (Venusian)									PROFICIENCY:WEAPON|Bolt Gun		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:500	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4+2			RANGE:100	SIZE:M	
+Heat Gun (Venusian)									PROFICIENCY:WEAPON|Heat Gun		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:800	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d6+2			RANGE:15	SIZE:M	
+Microwave Gun (Venusian)									PROFICIENCY:WEAPON|Microwave Gun		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:700	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+2			RANGE:100	SIZE:M	
+Rocket Launcher (Venusian)									PROFICIENCY:WEAPON|Rocket Launcher		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:2000	WT:30				CRITMULT:x2	CRITRANGE:1	DAMAGE:5d10+2			RANGE:250	SIZE:M	
+Plasma Thrower (Venusian)									PROFICIENCY:WEAPON|Plasma Thrower		TYPE:Weapon.Simple.Ranged.Venusian			CONTAINS:UNLIM|Charge		COST:1600	WT:35				CRITMULT:x2	CRITRANGE:1	DAMAGE:4d10+2			RANGE:100	SIZE:M	
+
+Laser Pistol (Mercurian)									PROFICIENCY:WEAPON|Laser Pistol		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:600	WT:1				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8+3			RANGE:200	SIZE:M	
+Laser Rifle (Mercurian)									PROFICIENCY:WEAPON|Laser Rifle		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:1200	WT:5				CRITMULT:x2	CRITRANGE:2	DAMAGE:1d12+3			RANGE:750	SIZE:M	
+Rocket Pistol (Mercurian)									PROFICIENCY:WEAPON|Rocket Pistol		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:800	WT:3				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+3			RANGE:100	SIZE:M	
+Rocket Rifle (Mercurian)									PROFICIENCY:WEAPON|Rocket Rifle		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:1000	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8+3			RANGE:500	SIZE:M	
+Needle Gun (Mercurian)									PROFICIENCY:WEAPON|Needle Gun		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:400	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3+3			RANGE:75	SIZE:M	
+Bolt Gun (Mercurian)									PROFICIENCY:WEAPON|Bolt Gun		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:500	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4+3			RANGE:100	SIZE:M	
+Heat Gun (Mercurian)									PROFICIENCY:WEAPON|Heat Gun		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:800	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d6+3			RANGE:15	SIZE:M	
+Microwave Gun (Mercurian)									PROFICIENCY:WEAPON|Microwave Gun		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:700	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+3			RANGE:100	SIZE:M	
+Rocket Launcher (Mercurian)									PROFICIENCY:WEAPON|Rocket Launcher		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:2000	WT:30				CRITMULT:x2	CRITRANGE:1	DAMAGE:5d10+3			RANGE:250	SIZE:M	
+Plasma Thrower (Mercurian)									PROFICIENCY:WEAPON|Plasma Thrower		TYPE:Weapon.Simple.Ranged.Mercurian			CONTAINS:UNLIM|Charge		COST:1600	WT:35				CRITMULT:x2	CRITRANGE:1	DAMAGE:4d10+3			RANGE:100	SIZE:M	
+
+Laser Pistol (Lunarian)									PROFICIENCY:WEAPON|Laser Pistol		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:9600	WT:1				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8+4			RANGE:200	SIZE:M	
+Laser Rifle (Lunarian)									PROFICIENCY:WEAPON|Laser Rifle		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:19200	WT:5				CRITMULT:x2	CRITRANGE:2	DAMAGE:1d12+4			RANGE:750	SIZE:M	
+Rocket Pistol (Lunarian)									PROFICIENCY:WEAPON|Rocket Pistol		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:12800	WT:3				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+4			RANGE:100	SIZE:M	
+Rocket Rifle (Lunarian)									PROFICIENCY:WEAPON|Rocket Rifle		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:16000	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d8+4			RANGE:500	SIZE:M	
+Needle Gun (Lunarian)									PROFICIENCY:WEAPON|Needle Gun		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:6400	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3+4			RANGE:75	SIZE:M	
+Bolt Gun (Lunarian)									PROFICIENCY:WEAPON|Bolt Gun		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:8000	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4+4			RANGE:100	SIZE:M	
+Heat Gun (Lunarian)									PROFICIENCY:WEAPON|Heat Gun		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:12800	WT:6				CRITMULT:x2	CRITRANGE:1	DAMAGE:2d6+4			RANGE:15	SIZE:M	
+Microwave Gun (Lunarian)									PROFICIENCY:WEAPON|Microwave Gun		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:11200	WT:2				CRITMULT:x2	CRITRANGE:1	DAMAGE:1d10+4			RANGE:100	SIZE:M	
+Rocket Launcher (Lunarian)									PROFICIENCY:WEAPON|Rocket Launcher		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:32000	WT:30				CRITMULT:x2	CRITRANGE:1	DAMAGE:5d10+4			RANGE:250	SIZE:M	
+Plasma Thrower (Lunarian)									PROFICIENCY:WEAPON|Plasma Thrower		TYPE:Weapon.Simple.Ranged.Lunarian			CONTAINS:UNLIM|Charge		COST:25600	WT:35				CRITMULT:x2	CRITRANGE:1	DAMAGE:4d10+4			RANGE:100	SIZE:M	
+
