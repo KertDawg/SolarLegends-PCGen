@@ -1,5 +1,5 @@
 # Ability Name			Output Name			Category of Ability		Type						Visible	Special ABility																										Define
-Default								CATEGORY:Internal
+#Default								CATEGORY:Internal
 
 # Ability Name			Output Name			Category of Ability		Type						Visible	Special ABility																										Define
 #Ability Surge							CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Ability Surge (Ex)|PREVAREQ:AbilitySurge,0	SAB:Ability Surge %/day|AbilitySurge|PREVARGT:AbilitySurge,0										DEFINE:AbilitySurge|0
