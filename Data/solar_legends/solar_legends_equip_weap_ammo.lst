@@ -2,16 +2,20 @@
 SOURCELONG:System Reference Document	SOURCESHORT:SRD	SOURCEWEB:http://groups.yahoo.com/group/pcgen/files/3.0%20SRD/	SOURCEDATE:2000-01
 
 # Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Modifier		Source Page
-Arrow											TYPE:Ammunition.Standard.Wooden.Arrow	COST:0.05	WT:0.15				EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Arrows (20)										TYPE:Ammunition.Standard.Wooden.Arrow	COST:1	WT:3		BASEQTY:20		EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Arrow (Silvered)			OUTPUTNAME:Arrow, [NAME]		TYPE:Ammunition.Standard.Wooden.Arrow	COST:1	WT:0.15				EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Bolt (Crossbow)			OUTPUTNAME:Bolt, [NAME]			TYPE:Ammunition.Standard.Wooden.Bolt	COST:0.1	WT:0.1				EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Bolts (Crossbow/10)		OUTPUTNAME:Bolts, Crossbow (10)	TYPE:Ammunition.Standard.Wooden.Bolt	COST:1	WT:1		BASEQTY:10		EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Bolt (Crossbow/Silvered)	OUTPUTNAME:Bolt, Silvered		TYPE:Ammunition.Standard.Wooden.Bolt	COST:1	WT:0.15				EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Bullet (Sling)			OUTPUTNAME:Bullet, [NAME]		TYPE:Ammunition.Standard.SlingStone		COST:0.01	WT:0.5				EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Bullets (Sling/10)		OUTPUTNAME:Bullets, Sling (10)	TYPE:Ammunition.Standard.SlingStone		COST:0.1	WT:5		BASEQTY:10		EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-
-
-
-Needles (Blowgun/20)		OUTPUTNAME:Needles, Blowgun (20)	TYPE:Ammunition.Standard.Needle		COST:1	WT:0		BASEQTY:20		EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
-Needle (Blowgun)			OUTPUTNAME:Needle, [NAME]		TYPE:Ammunition.Standard.Needle		COST:0.05	WT:0					EQMOD:STEEL.WOOD	SOURCEPAGE:SRDEquipmentI
+Capacitor Magazine											TYPE:Ammunition.Laser Pistol	COST:25	WT:0.25				
+Capacitor Magazine											TYPE:Ammunition.Laser Rifle	COST:50	WT:0.25				
+Stupid Ammo Magazine											TYPE:Ammunition.Rocket Pistol	COST:20	WT:1				
+Smart Ammo Magazine											TYPE:Ammunition.Rocket Pistol	COST:50	WT:1				
+Chaff Pack											TYPE:Ammunition.Rocket Pistol	COST:50	WT:2				
+Aerosol Mist Pack											TYPE:Ammunition.Rocket Pistol	COST:50	WT:2				
+Stupid Ammo Magazine											TYPE:Ammunition.Rocket Rifle	COST:40	WT:2				
+Smart Ammo Magazine											TYPE:Ammunition.Rocket Rifle	COST:100	WT:2				
+Chaff Pack											TYPE:Ammunition.Rocket Rifle	COST:50	WT:2				
+Aerosol Mist Pack											TYPE:Ammunition.Rocket Rifle	COST:50	WT:2				
+Needle Ammo Magazine											TYPE:Ammunition.Needle Gun	COST:25	WT:0.25				
+Bolt Ammo Magazine											TYPE:Ammunition.Bolt Gun	COST:10	WT:2				
+Plasma Tank											TYPE:Ammunition.Heat Gun	COST:25	WT:1				
+Bolt Magazine											TYPE:Ammunition.Dryfoot Crossbow	COST:5	WT:2				
+Shell Magazine											TYPE:Ammunition.Dryfoot Crossbow	COST:10	WT:4				
+Rocket											TYPE:Ammunition.Rocket Launcher	COST:100	WT:2				
+Plasma Cartridge											TYPE:Ammunition.Plasma Thrower	COST:80	WT:2				
