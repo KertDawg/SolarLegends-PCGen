@@ -43,7 +43,7 @@ DATACONTROL:solar_legends_datacontrols.lst
 #EXTRAFILE:OGL.txt
 
 EQUIPMENT:solar_legends_equip.lst
-#EQUIPMENT:solar_legends_equip_armor.lst
+EQUIPMENT:solar_legends_equip_armor.lst
 #EQUIPMENT:rocketrangers_equip_vehicles.lst
 EQUIPMENT:solar_legends_equip_weap_melee.lst
 EQUIPMENT:solar_legends_equip_weap_ranged.lst
