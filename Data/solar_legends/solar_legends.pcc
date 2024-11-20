@@ -6,19 +6,19 @@ BOOKTYPE:Core Rules
 TYPE:Emrich Consulting, LLC.Pulp SciFi
 #PRECAMPAIGN:1,BOOKTYPE=Core Rules
 PUBNAMELONG:Emrich Consulting, LLC
-PUBNAMESHORT:Battlefield
+PUBNAMESHORT:Emrich Consulting
 PUBNAMEWEB:https://solarlegends.kertdawg.net
 SOURCELONG:Solar Legends
 SOURCESHORT:SolarLegends
 SOURCEWEB:https://solarlegends.kertdawg.net
-SOURCEDATE:2024-04
+SOURCEDATE:2024-11
 RANK:202404
 SHOWINMENU:YES
 ISOGL:NO
 COPYRIGHT:Copyright 2024 Emrich Consulting, LLC
 
-#COVER:Rocket_Rangers.jpg
-#LOGO:@/publisher_logos/Battlefield_Press.png
+#COVER:
+LOGO:@/publisher_logos/solar_legends_logo.png
 DESC:Solar Legends Science Fiction RPG
 URL:WEBSITE|https://solarlegends.kertdawg.net|Visit the game's web site.
 
@@ -29,11 +29,9 @@ SIZE:solar_legends_sizes.lst
 SKILL:solar_legends_skills.lst
 STAT:solar_legends_stats.lst
 LANGUAGE:solar_legends_languages.lst
-#ALIGNMENT:solar_legends_align.lst
 CLASS:solar_legends_careers.lst
-#DEITY:solar_legends_deities.lst
-#DOMAIN:solar_legends_domains.lst
 
+#ABILITYCATEGORY:solar_legends_abilitycategories.lst
 ABILITY:solar_legends_abilities_career.lst
 ABILITY:solar_legends_abilities_origin.lst
 ABILITY:solar_legends_feats.lst
@@ -44,19 +42,9 @@ DATACONTROL:solar_legends_datacontrols.lst
 
 EQUIPMENT:solar_legends_equip.lst
 EQUIPMENT:solar_legends_equip_armor.lst
-#EQUIPMENT:rocketrangers_equip_vehicles.lst
 EQUIPMENT:solar_legends_equip_weap_melee.lst
 EQUIPMENT:solar_legends_equip_weap_ranged.lst
 EQUIPMENT:solar_legends_equip_weap_ammo.lst
-#EQUIPMOD:rocketrangers_equipmods.lst
-#KIT:rocketrangers_kits_defaultmonsters.lst
-#RACE:solar_legends_origins.lst
-#WEAPONPROF:rocketrangers_weaponprofs.lst
-#ARMORPROF:rocketrangers_profs_armor.lst
+WEAPONPROF:solar_legends_weapon_proficiencies.lst
 
-#included creatures from MSRD
-#KIT:@/modern/wizards_of_the_coast/msrd/basics/modern_creatures/moderncreatures_kits_defaultmonsters.lst|(INCLUDE:Default Dinosaur (Deinonychus))
-#KIT:@/modern/wizards_of_the_coast/msrd/menaces/menaces_kits_defaultmonsters_a-i.lst|(INCLUDE:Default Dinosaur (Tyrannosaur))
-#RACE:@/modern/wizards_of_the_coast/msrd/basics/modern_creatures/moderncreatures_races.lst|(INCLUDE:Dinosaur (Deinonychus))
-#RACE:@/modern/wizards_of_the_coast/msrd/menaces/menaces_races_a-i.lst|(INCLUDE:Dinosaur (Tyrannosaur))
-#EQUIPMOD:@/modern/wizards_of_the_coast/msrd/basics/modern_basics/modernbasics_equipmods.lst|(INCLUDE:AAVEHICLE)
+#ARMORPROF:solar_legends_profs_armor.lst

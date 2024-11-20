@@ -1,6 +1,6 @@
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:4	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
+CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:4	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing Craft|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
 
 ###Block: BAB
 1	BONUS:COMBAT|BASEAB|0
@@ -56,7 +56,7 @@ CLASS:Warrior	HD:10		TYPE:Base.PC	MAXLEVEL:20			DEFINE:WarriorLVL|0	BONUS:ABILIT
 20	BONUS:COMBAT|BASEAB|19
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Scout	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:ScoutLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|ScoutLVL|CL				FACT:Abb|Sct	CSKILL:Animal Riding|Befriend Animal|Climb|Move Silently|Notice|Planetary Survival|Planetology|Tracking
+CLASS:Scout	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:ScoutLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|ScoutLVL|CL				FACT:Abb|Sct	CSKILL:Animal Empathy|Climb|Move Silently|Notice|Planetary Survival|Planetology|Tracking
 
 ###Block: BAB
 1	BONUS:COMBAT|BASEAB|0
@@ -106,7 +106,7 @@ CLASS:Engineer	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:EngineerLVL|0	BONUS:ABILI
 20	BONUS:COMBAT|BASEAB|6
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RogueLVL|CL				FACT:Abb|Rog	CSKILL:Bypass Security|Climb|Fast Talk / Convince|Hide in Shadows|Move Silently|Notice|Open Lock|Pick Pocket
+CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RogueLVL|CL				FACT:Abb|Rog	CSKILL:Bypass Security|Climb|Fast Talk / Convince|Hide|Move Silently|Notice|Open Lock|Pick Pocket
 
 ###Block: BAB
 1	BONUS:COMBAT|BASEAB|0
@@ -131,7 +131,7 @@ CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL
 20	BONUS:COMBAT|BASEAB|9
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Medic	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:MedicLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|MedicLVL|CL				FACT:Abb|Med	CSKILL:Diagnose|Life Suspension Tech|Treat Critical Wounds|Treat Disease|Treat Light Wounds|Treat Poisoning|Treat Serious Wounds|Treat Stun / Paralysis
+CLASS:Medic	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:MedicLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|MedicLVL|CL				FACT:Abb|Med	CSKILL:Diagnose|Life Suspension Technology|Treat Critical Wounds|Treat Disease|Treat Light Wounds|Treat Poisoning|Treat Serious Wounds|Treat Stun / Paralysis
 
 ###Block: BAB
 1	BONUS:COMBAT|BASEAB|0

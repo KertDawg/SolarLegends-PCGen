@@ -1,22 +1,22 @@
 
 #MEDIUM ----------------------------------------------------------------------------------------------------------
-Mono Knife									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Standard								COST:200	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
-Mono Sword								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Standard								COST:2000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
-Polearm				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Standard										COST:100	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+Mono Knife									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Standard								COST:200	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6										WIELD:OneHanded									SIZE:M	
+Mono Sword								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Standard								COST:2000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10										WIELD:TwoHanded									SIZE:M	
+Polearm				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Standard										COST:100	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10										WIELD:TwoHanded										SIZE:M	
 
-Mono Knife (Martian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Martian								COST:400	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+1				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
-Mono Sword (Martian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Martian								COST:4000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+1				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
-Polearm (Martian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Martian										COST:200	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+1				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+Mono Knife (Martian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Martian								COST:400	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+1										WIELD:OneHanded									SIZE:M	
+Mono Sword (Martian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Martian								COST:4000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+1										WIELD:TwoHanded									SIZE:M	
+Polearm (Martian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Martian										COST:200	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+1										WIELD:TwoHanded										SIZE:M	
 
-Mono Knife (Venusian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Venusian								COST:1600	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+2				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
-Mono Sword (Venusian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Venusian								COST:16000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+2				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
-Polearm (Venusian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Venusian										COST:800	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+2				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+Mono Knife (Venusian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Venusian								COST:1600	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+2										WIELD:OneHanded									SIZE:M	
+Mono Sword (Venusian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Venusian								COST:16000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+2										WIELD:TwoHanded									SIZE:M	
+Polearm (Venusian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Venusian										COST:800	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+2										WIELD:TwoHanded										SIZE:M	
 
-Mono Knife (Mercurian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Mercurian								COST:3600	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+3				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
-Mono Sword (Mercurian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Mercurian								COST:36000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+3				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
-Polearm (Mercurian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Venusian										COST:1800	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+3				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+Mono Knife (Mercurian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Mercurian								COST:3600	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+3										WIELD:OneHanded									SIZE:M	
+Mono Sword (Mercurian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Mercurian								COST:36000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+3										WIELD:TwoHanded									SIZE:M	
+Polearm (Mercurian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Venusian										COST:1800	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+3										WIELD:TwoHanded										SIZE:M	
 
-Mono Knife (Lunarian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Lunarian								COST:6400	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+4				EQMOD:STEEL						WIELD:OneHanded									SIZE:M	
-Mono Sword (Lunarian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Lunarian								COST:64000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+4				EQMOD:STEEL						WIELD:TwoHanded									SIZE:M	
-Polearm (Lunarian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Lunarian										COST:3200	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+4				EQMOD:STEEL						WIELD:TwoHanded										SIZE:M	
+Mono Knife (Lunarian)									PROFICIENCY:WEAPON|Mono Knife				TYPE:Weapon.Melee.Lunarian								COST:6400	WT:1									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d6+4										WIELD:OneHanded									SIZE:M	
+Mono Sword (Lunarian)								PROFICIENCY:WEAPON|Mono Sword			TYPE:Weapon.Melee.Lunarian								COST:64000	WT:4									CRITMULT:x2	CRITRANGE:2							DAMAGE:1d10+4										WIELD:TwoHanded									SIZE:M	
+Polearm (Lunarian)				PROFICIENCY:WEAPON|Polearm		TYPE:Weapon.Melee.Lunarian										COST:3200	WT:8									CRITMULT:x3	CRITRANGE:1							DAMAGE:1d10+4										WIELD:TwoHanded										SIZE:M	
 
