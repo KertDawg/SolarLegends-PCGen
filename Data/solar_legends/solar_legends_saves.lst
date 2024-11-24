@@ -1,0 +1,9 @@
+
+Explosion/Plasma	SORTKEY:1	BONUS:SAVE|Explosion/Plasma|CON
+Electrical Shock	SORTKEY:2	BONUS:SAVE|Electrical Shock|CON
+Paralysis/Stun/Fall	SORTKEY:3	BONUS:SAVE|Paralysis/Stun/Fall|CON
+Toxic Atmosphere/Gas/Poison	SORTKEY:4	BONUS:SAVE|Toxic Atmosphere/Gas/Poison|CON
+Suffocation	SORTKEY:5	BONUS:SAVE|Suffocation|CON
+Radiation	SORTKEY:6	BONUS:SAVE|Radiation|CON
+Extreme Heat	SORTKEY:7	BONUS:SAVE|Extreme Heat|CON
+Extreme Cold	SORTKEY:8	BONUS:SAVE|Extreme Cold|CON

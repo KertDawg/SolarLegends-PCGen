@@ -30,6 +30,7 @@ SKILL:solar_legends_skills.lst
 STAT:solar_legends_stats.lst
 LANGUAGE:solar_legends_languages.lst
 CLASS:solar_legends_careers.lst
+SAVE:solar_legends_saves.lst
 
 #ABILITYCATEGORY:solar_legends_abilitycategories.lst
 ABILITY:solar_legends_abilities_career.lst
