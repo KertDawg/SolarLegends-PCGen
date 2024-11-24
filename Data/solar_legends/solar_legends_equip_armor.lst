@@ -15,69 +15,68 @@ Space Suit (12 hr.)											TYPE:Armor.Space Suit	COST:200	WT:25	BONUS:COMBAT|
 Space Suit (24 hr.)											TYPE:Armor.Space Suit	COST:300	WT:25	BONUS:COMBAT|AC|1
 Space Suit (72 hr.)											TYPE:Armor.Space Suit	COST:400	WT:25	BONUS:COMBAT|AC|1
 Space Suit (168 hr.)											TYPE:Armor.Space Suit	COST:500	WT:25	BONUS:COMBAT|AC|1
-Light Body Armor											TYPE:Armor.Light Body Armor	COST:250	WT:15	BONUS:COMBAT|AC|2
+Light Body Armor											PROFICIENCY:ARMOR|Light	TYPE:Armor.Light Body Armor	COST:250	WT:15	BONUS:COMBAT|AC|2
 Replacement Torso											TYPE:Armor.Light Body Armor	COST:75
 Replacement Arm											TYPE:Armor.Light Body Armor	COST:30
 Replacement Leg											TYPE:Armor.Light Body Armor	COST:40
 Replacement Helmet											TYPE:Armor.Light Body Armor	COST:25
-Medium Body Armor											TYPE:Armor.Medium Body Armor	COST:600	WT:25	BONUS:COMBAT|AC|3
+Medium Body Armor											PROFICIENCY:ARMOR|Medium	TYPE:Armor.Medium Body Armor	COST:600	WT:25	BONUS:COMBAT|AC|3
 Replacement Torso											TYPE:Armor.Medium Body Armor	COST:200
 Replacement Arm											TYPE:Armor.Medium Body Armor	COST:70
 Replacement Leg											TYPE:Armor.Medium Body Armor	COST:80
 Replacement Helmet											TYPE:Armor.Medium Body Armor	COST:110
-Heavy Body Armo											TYPE:Armor.Heavy Body Armor	COST:1500	WT:35	BONUS:COMBAT|AC|4
+Heavy Body Armor											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Heavy Body Armor	COST:1500	WT:35	BONUS:COMBAT|AC|4
 Replacement Torso											TYPE:Armor.Heavy Body Armor	COST:450
 Replacement Arm											TYPE:Armor.Heavy Body Armor	COST:180
 Replacement Leg											TYPE:Armor.Heavy Body Armor	COST:240
 Replacement Helmet											TYPE:Armor.Heavy Body Armor	COST:210
-Battle Armor (heavy)											TYPE:Armor.Battle Armor	COST:2500	WT:75	BONUS:COMBAT|AC|6
-Battle Armor w/ Fields											TYPE:Armor.Battle Armor	COST:3000	WT:80	BONUS:COMBAT|AC|8
+Battle Armor											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:2500	WT:75	BONUS:COMBAT|AC|6
+Battle Armor w/ Fields											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:3000	WT:80	BONUS:COMBAT|AC|8
 
 # Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Modifier		Source Page
-Smart Clothes (Martian)											TYPE:Armor.Martian.Smart Clothes	COST:2000	WT:30	BONUS:COMBAT|AC|3
-Space Suit (12 hr. Martian)											TYPE:Armor.Martian.Space Suit	COST:400	WT:25	BONUS:COMBAT|AC|3
-Space Suit (24 hr. Martian)											TYPE:Armor.Martian.Space Suit	COST:600	WT:25	BONUS:COMBAT|AC|2
-Space Suit (72 hr. Martian)											TYPE:Armor.Martian.Space Suit	COST:800	WT:25	BONUS:COMBAT|AC|2
-Space Suit (168 hr. Martian)											TYPE:Armor.Martian.Space Suit	COST:1000	WT:25	BONUS:COMBAT|AC|2
-Light Body Armor (Martian)											TYPE:Armor.Martian.Light Body Armor	COST:500	WT:15	BONUS:COMBAT|AC|3
-Medium Body Armor (Martian)											TYPE:Armor.Martian.Medium Body Armor	COST:1200	WT:25	BONUS:COMBAT|AC|4
-Heavy Body Armo (Martian)											TYPE:Armor.Martian.Heavy Body Armor	COST:3000	WT:35	BONUS:COMBAT|AC|5
-Battle Armor (heavy Martian)											TYPE:Armor.Martian.Battle Armor	COST:5000	WT:75	BONUS:COMBAT|AC|7
-Battle Armor w/ Fields (Martian)											TYPE:Armor.Martian.Battle Armor	COST:6000	WT:80	BONUS:COMBAT|AC|9
+Smart Clothes (Martian)											TYPE:Armor.Smart Clothes	COST:2000	WT:30	BONUS:COMBAT|AC|3
+Space Suit (12 hr. Martian)											TYPE:Armor.Space Suit	COST:400	WT:25	BONUS:COMBAT|AC|3
+Space Suit (24 hr. Martian)											TYPE:Armor.Space Suit	COST:600	WT:25	BONUS:COMBAT|AC|2
+Space Suit (72 hr. Martian)											TYPE:Armor.Space Suit	COST:800	WT:25	BONUS:COMBAT|AC|2
+Space Suit (168 hr. Martian)											TYPE:Armor.Space Suit	COST:1000	WT:25	BONUS:COMBAT|AC|2
+Light Body Armor (Martian)											PROFICIENCY:ARMOR|Light	TYPE:Armor.Light Body Armor	COST:500	WT:15	BONUS:COMBAT|AC|3
+Medium Body Armor (Martian)											PROFICIENCY:ARMOR|Medium	TYPE:Armor.Medium Body Armor	COST:1200	WT:25	BONUS:COMBAT|AC|4
+Heavy Body Armo (Martian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Heavy Body Armor	COST:3000	WT:35	BONUS:COMBAT|AC|5
+Battle Armor (Martian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:5000	WT:75	BONUS:COMBAT|AC|7
+Battle Armor w/ Fields (Martian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:6000	WT:80	BONUS:COMBAT|AC|9
 
 # Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Modifier		Source Page
-Smart Clothes (Venusian)											TYPE:Armor.Venusian.Smart Clothes	COST:8000	WT:30	BONUS:COMBAT|AC|4
-Space Suit (12 hr. Venusian)											TYPE:Armor.Venusian.Space Suit	COST:1600	WT:25	BONUS:COMBAT|AC|3
-Space Suit (24 hr. Venusian)											TYPE:Armor.Venusian.Space Suit	COST:2400	WT:25	BONUS:COMBAT|AC|3
-Space Suit (72 hr. Venusian)											TYPE:Armor.Venusian.Space Suit	COST:3200	WT:25	BONUS:COMBAT|AC|3
-Space Suit (168 hr. Venusian)											TYPE:Armor.Venusian.Space Suit	COST:4000	WT:25	BONUS:COMBAT|AC|4
-Light Body Armor (Venusian)											TYPE:Armor.Venusian.Light Body Armor	COST:2000	WT:15	BONUS:COMBAT|AC|5
-Medium Body Armor (Venusian)											TYPE:Armor.Venusian.Medium Body Armor	COST:2400	WT:25	BONUS:COMBAT|AC|5
-Heavy Body Armo (Venusian)											TYPE:Armor.Venusian.Heavy Body Armor	COST:12000	WT:35	BONUS:COMBAT|AC|6
-Battle Armor (heavy Venusian)											TYPE:Armor.Venusian.Battle Armor	COST:20000	WT:75	BONUS:COMBAT|AC|8
-Battle Armor w/ Fields (Venusian)											TYPE:Armor.Venusian.Battle Armor	COST:24000	WT:80	BONUS:COMBAT|AC|10
+Smart Clothes (Venusian)											TYPE:Armor.Smart Clothes	COST:8000	WT:30	BONUS:COMBAT|AC|4
+Space Suit (12 hr. Venusian)											TYPE:Armor.Space Suit	COST:1600	WT:25	BONUS:COMBAT|AC|3
+Space Suit (24 hr. Venusian)											TYPE:Armor.Space Suit	COST:2400	WT:25	BONUS:COMBAT|AC|3
+Space Suit (72 hr. Venusian)											TYPE:Armor.Space Suit	COST:3200	WT:25	BONUS:COMBAT|AC|3
+Space Suit (168 hr. Venusian)											TYPE:Armor.Space Suit	COST:4000	WT:25	BONUS:COMBAT|AC|4
+Light Body Armor (Venusian)											PROFICIENCY:ARMOR|Light	TYPE:Armor.Light Body Armor	COST:2000	WT:15	BONUS:COMBAT|AC|5
+Medium Body Armor (Venusian)											PROFICIENCY:ARMOR|Medium	TYPE:Armor.Medium Body Armor	COST:2400	WT:25	BONUS:COMBAT|AC|5
+Heavy Body Armor (Venusian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Heavy Body Armor	COST:12000	WT:35	BONUS:COMBAT|AC|6
+Battle Armor (Venusian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:20000	WT:75	BONUS:COMBAT|AC|8
+Battle Armor w/ Fields (Venusian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:24000	WT:80	BONUS:COMBAT|AC|10
 
 # Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Modifier		Source Page
-Smart Clothes (Mercurian)											TYPE:Armor.Mercurian.Smart Clothes	COST:18000	WT:30	BONUS:COMBAT|AC|5
-Space Suit (12 hr. Mercurian)											TYPE:Armor.Mercurian.Space Suit	COST:3600	WT:25	BONUS:COMBAT|AC|4
-Space Suit (24 hr. Mercurian)											TYPE:Armor.Mercurian.Space Suit	COST:5400	WT:25	BONUS:COMBAT|AC|4
-Space Suit (72 hr. Mercurian)											TYPE:Armor.Mercurian.Space Suit	COST:7200	WT:25	BONUS:COMBAT|AC|4
-Space Suit (168 hr. Mercurian)											TYPE:Armor.Mercurian.Space Suit	COST:9000	WT:25	BONUS:COMBAT|AC|5
-Light Body Armor (Mercurian)											TYPE:Armor.Mercurian.Light Body Armor	COST:4500	WT:15	BONUS:COMBAT|AC|5
-Medium Body Armor (Mercurian)											TYPE:Armor.Mercurian.Medium Body Armor	COST:10800	WT:25	BONUS:COMBAT|AC|6
-Heavy Body Armo (Mercurian)											TYPE:Armor.Mercurian.Heavy Body Armor	COST:27000	WT:35	BONUS:COMBAT|AC|7
-Battle Armor (heavy Mercurian)											TYPE:Armor.Mercurian.Battle Armor	COST:45000	WT:75	BONUS:COMBAT|AC|9
-Battle Armor w/ Fields (Mercurian)											TYPE:Armor.Mercurian.Battle Armor	COST:54000	WT:80	BONUS:COMBAT|AC|11
+Smart Clothes (Mercurian)											TYPE:Armor.Smart Clothes	COST:18000	WT:30	BONUS:COMBAT|AC|5
+Space Suit (12 hr. Mercurian)											TYPE:Armor.Space Suit	COST:3600	WT:25	BONUS:COMBAT|AC|4
+Space Suit (24 hr. Mercurian)											TYPE:Armor.Space Suit	COST:5400	WT:25	BONUS:COMBAT|AC|4
+Space Suit (72 hr. Mercurian)											TYPE:Armor.Space Suit	COST:7200	WT:25	BONUS:COMBAT|AC|4
+Space Suit (168 hr. Mercurian)											TYPE:Armor.Space Suit	COST:9000	WT:25	BONUS:COMBAT|AC|5
+Light Body Armor (Mercurian)											PROFICIENCY:ARMOR|Light	TYPE:Armor.Light Body Armor	COST:4500	WT:15	BONUS:COMBAT|AC|5
+Medium Body Armor (Mercurian)											PROFICIENCY:ARMOR|Medium	TYPE:Armor.Medium Body Armor	COST:10800	WT:25	BONUS:COMBAT|AC|6
+Heavy Body Armo (Mercurian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Heavy Body Armor	COST:27000	WT:35	BONUS:COMBAT|AC|7
+Battle Armor (Mercurian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:45000	WT:75	BONUS:COMBAT|AC|9
+Battle Armor w/ Fields (Mercurian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:54000	WT:80	BONUS:COMBAT|AC|11
 
 # Equipment Name			Output Name					Type							Cost		Weight	Base Quantity	Modifier		Source Page
-Smart Clothes (Lunarian)											TYPE:Armor.Lunarian.Smart Clothes	COST:2000	WT:30	BONUS:COMBAT|AC|6
-Space Suit (12 hr. Lunarian)											TYPE:Armor.Lunarian.Space Suit	COST:400	WT:25	BONUS:COMBAT|AC|5
-Space Suit (24 hr. Lunarian)											TYPE:Armor.Lunarian.Space Suit	COST:600	WT:25	BONUS:COMBAT|AC|5
-Space Suit (72 hr. Lunarian)											TYPE:Armor.Lunarian.Space Suit	COST:800	WT:25	BONUS:COMBAT|AC|5
-Space Suit (168 hr. Lunarian)											TYPE:Armor.Lunarian.Space Suit	COST:1000	WT:25	BONUS:COMBAT|AC|6
-Light Body Armor (Lunarian)											TYPE:Armor.Lunarian.Light Body Armor	COST:500	WT:15	BONUS:COMBAT|AC|6
-Medium Body Armor (Lunarian)											TYPE:Armor.Lunarian.Medium Body Armor	COST:1200	WT:25	BONUS:COMBAT|AC|7
-Heavy Body Armo (Lunarian)											TYPE:Armor.Lunarian.Heavy Body Armor	COST:3000	WT:35	BONUS:COMBAT|AC|8
-Battle Armor (heavy Lunarian)											TYPE:Armor.Lunarian.Battle Armor	COST:5000	WT:75	BONUS:COMBAT|AC|10
-Battle Armor w/ Fields (Lunarian)											TYPE:Armor.Lunarian.Battle Armor	COST:6000	WT:80	BONUS:COMBAT|AC|12
-
+Smart Clothes (Lunarian)											TYPE:Armor.Smart Clothes	COST:2000	WT:30	BONUS:COMBAT|AC|6
+Space Suit (12 hr. Lunarian)											TYPE:Armor.Space Suit	COST:400	WT:25	BONUS:COMBAT|AC|5
+Space Suit (24 hr. Lunarian)											TYPE:Armor.Space Suit	COST:600	WT:25	BONUS:COMBAT|AC|5
+Space Suit (72 hr. Lunarian)											TYPE:Armor.Space Suit	COST:800	WT:25	BONUS:COMBAT|AC|5
+Space Suit (168 hr. Lunarian)											TYPE:Armor.Space Suit	COST:1000	WT:25	BONUS:COMBAT|AC|6
+Light Body Armor (Lunarian)											PROFICIENCY:ARMOR|Light	TYPE:Armor.Light Body Armor	COST:500	WT:15	BONUS:COMBAT|AC|6
+Medium Body Armor (Lunarian)											PROFICIENCY:ARMOR|Medium	TYPE:Armor.Medium Body Armor	COST:1200	WT:25	BONUS:COMBAT|AC|7
+Heavy Body Armo (Lunarian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Heavy Body Armor	COST:3000	WT:35	BONUS:COMBAT|AC|8
+Battle Armor (Lunarian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:5000	WT:75	BONUS:COMBAT|AC|10
+Battle Armor w/ Fields (Lunarian)											PROFICIENCY:ARMOR|Heavy	TYPE:Armor.Battle Armor	COST:6000	WT:80	BONUS:COMBAT|AC|12

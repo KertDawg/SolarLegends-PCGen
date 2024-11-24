@@ -46,5 +46,6 @@ EQUIPMENT:solar_legends_equip_weap_melee.lst
 EQUIPMENT:solar_legends_equip_weap_ranged.lst
 EQUIPMENT:solar_legends_equip_weap_ammo.lst
 WEAPONPROF:solar_legends_weapon_proficiencies.lst
+ARMORPROF:solar_legends_armor_proficiencies.lst
 
 #ARMORPROF:solar_legends_profs_armor.lst
