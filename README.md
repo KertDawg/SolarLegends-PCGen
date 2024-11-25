@@ -2,11 +2,11 @@
 This sets up PCGen to create and manage characters for Solar Legends.
 
 ## Requirements
--This requires PCGen 6.08 or higher.
--To build the package yourself, this requires a Unix-like system with `make` and `zip`.
+- This requires PCGen 6.08 or higher.
+- To build the package yourself, this requires a Unix-like system with `make` and `zip`.
 
 ## Building it
--Run `make`.
+- Run `make`.
 
 ## Installation
 - Download the `SolarLegends.pcz` file from the releases page or build it yourself.
