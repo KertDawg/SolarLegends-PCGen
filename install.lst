@@ -1,0 +1,11 @@
+CAMPAIGN:Solar Legends
+MINVER:6.8
+MINDEVVER:6.8
+DEST:DATA
+
+PUBNAMEWEB:https://solarlegends.kertdawg.net
+SOURCELONG:Solar Legends
+SOURCESHORT:SL
+SOURCEDATE:2024-11
+COPYRIGHT:Emrich Consulting, LLC
+INFOTEXT:You must restart PCGen after installing this game mode!  It will not appear until you restart.
