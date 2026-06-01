@@ -162,3 +162,19 @@
 ###Block: Companion Modifier Abilities -----------------------------------------
 # Ability Name				Category of Ability		Visible	Special ABility				Source Page					Temporary effect description							Temporary Bonus
 #Empathic Link				CATEGORY:Special Ability	VISIBLE:NO	SAB:Empathic Link
+
+###Block: Solar Legends Career Ability Activations
+# Active Solar Legends career abilities.
+Sneak Attack	CATEGORY:Special Ability	TYPE:SpecialAttack	VISIBLE:YES	DEFINE:SneakAttackDice|0	DEFINE:SneakAttackDie|0	DESC:%1d%2 extra damage when target is denied DEX to AC or when flanked|SneakAttackDice|SneakAttackDie	BONUS:VAR|SneakAttackDie|6|TYPE=Base	ASPECT:Ability Benefit|%1d%2|SneakAttackDice|SneakAttackDie
+Uncanny Dodge	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DEFINE:UncannyDodge|0	DEFINE:ImprovedUncannyDodge|0	DESC:Dex bonus to AC while flat-footed|PREVARGT:UncannyDodge,0	DESC:Cannot be flanked|PREVARGT:ImprovedUncannyDodge,0	ABILITY:Special Ability|AUTOMATIC|Retain Dex To AC ~ Flat-footed	BONUS:VAR|ImprovedUncannyDodge|max(UncannyDodge-1,0)
+Retain Dex To AC ~ Flat-footed	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:NO	SAB:Retain Dex To AC while flat-footed
+Warrior Weapon Specialization Bonus	CATEGORY:Special Ability	TYPE:Class.SpecialAbility.WeaponSpecialization	VISIBLE:YES	MULT:YES	CHOOSE:WEAPONPROFICIENCY|ABILITY=FEAT[Weapon Focus]	SAB:Warrior Weapon Specialization (%CHOICE)	BONUS:WEAPONPROF=%LIST|TOHIT,DAMAGE|1
+Warrior Unarmed Flurry	CATEGORY:Special Ability	TYPE:Class.SpecialAbility	VISIBLE:YES	SAB:Can attack twice per round with fists
+Career Rules Note ~ Warrior	CATEGORY:Special Ability	TYPE:Class.Note	VISIBLE:YES	SAB:PCGen Note	DESC:Warrior bonus feats are restricted to the Warrior Bonus Feat pool. Unarmed Flurry timing and attack-sequence handling may require table adjudication.
+Evasion	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:NO	SAB:Evasion
+Career Rules Note ~ Rogue	CATEGORY:Special Ability	TYPE:Class.Note	VISIBLE:YES	SAB:PCGen Note	DESC:Sneak Attack and Uncanny Dodge are tracked. Crippling Strike trigger timing, Defensive Roll trigger/save resolution, Opportunist reactions, and Skill Mastery take-10 use conditions require table adjudication.
+Crippling Strike	CATEGORY:Rogue Special Ability	TYPE:Rogue.SpecialAbility	VISIBLE:YES	SAB:Crippling Strike	DESC:Whenever the rogue deals sneak attack damage to a living creature, target takes 2 points of Strength damage.
+Defensive Roll	CATEGORY:Rogue Special Ability	TYPE:Rogue.SpecialAbility	VISIBLE:YES	SAB:Defensive Roll	DESC:Once per day, if reduced to 0 hit points or less by damage in combat, the rogue can attempt a Reflex save (DC = damage dealt). On success, the rogue takes only half damage.
+Improved Evasion	CATEGORY:Rogue Special Ability	TYPE:Rogue.SpecialAbility	VISIBLE:YES	SAB:Improved Evasion	DESC:This ability works like Evasion, except failed Reflex saves deal only half damage and successful Reflex saves deal no damage.	ABILITY:Special Ability|AUTOMATIC|Evasion
+Opportunist	CATEGORY:Rogue Special Ability	TYPE:Rogue.SpecialAbility	VISIBLE:YES	SAB:Opportunist	DESC:Once per round, when an ally strikes an opponent in melee, the rogue may make an attack of opportunity against that opponent.
+Skill Mastery	CATEGORY:Rogue Special Ability	TYPE:Rogue.SpecialAbility	VISIBLE:YES	SAB:Skill Mastery	DESC:Select skills equal to 3 + INT modifier. The rogue may take 10 on those skills even when distracted or threatened.

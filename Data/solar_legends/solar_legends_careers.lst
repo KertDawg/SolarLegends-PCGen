@@ -1,10 +1,10 @@
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:4	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing Craft|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
+CLASS:Rocket Pilot	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RocketPilotLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RocketPilotLVL|CL				FACT:Abb|Plt		STARTSKILLPTS:8	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing Craft|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
 CLASS:Rocket Pilot	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice|Pilot Fixed Wing Craft|Pilot Rocket|Pilot Rotorwing Craft|Use Rocket Belt
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0
+1	BONUS:COMBAT|BASEAB|0	ABILITY:FEAT|AUTOMATIC|Weapon Focus
 2	BONUS:COMBAT|BASEAB|0
 3	BONUS:COMBAT|BASEAB|1
 4	BONUS:COMBAT|BASEAB|1
@@ -34,36 +34,36 @@ CLASS:Rocket Pilot	CSKILL:Drive Jetcar|Drive Groundcar|Maneuver in Zero G|Notice
 
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Warrior	HD:10		TYPE:Base.PC	MAXLEVEL:20			DEFINE:WarriorLVL|0	BONUS:ABILITYPOOL|FEAT|2			BONUS:VAR|WarriorLVL|CL				FACT:Abb|War	CSKILL:Battle Tactics|Demolitions|Leadership|Maneuver in Zero G|Move Silently|Notice|Repair Weapon|Use Rocket Belt
+CLASS:Warrior	HD:10		TYPE:Base.PC	MAXLEVEL:20			DEFINE:WarriorLVL|0	BONUS:ABILITYPOOL|FEAT|2			BONUS:VAR|WarriorLVL|CL				FACT:Abb|War	STARTSKILLPTS:4	CSKILL:Battle Tactics|Demolitions|Leadership|Maneuver in Zero G|Move Silently|Notice|Repair Weapon|Use Rocket Belt
 CLASS:Warrior	CSKILL:Battle Tactics|Demolitions|Leadership|Maneuver in Zero G|Move Silently|Notice|Repair Weapon|Use Rocket Belt
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0	BONUS:FEAT|POOL|1
-2	BONUS:COMBAT|BASEAB|1	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+1	BONUS:COMBAT|BASEAB|0	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:FEAT|AUTOMATIC|Weapon Focus	ABILITY:Special Ability|AUTOMATIC|Warrior Unarmed Flurry|Career Rules Note ~ Warrior
+2	BONUS:COMBAT|BASEAB|1	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 3	BONUS:COMBAT|BASEAB|2
-4	BONUS:COMBAT|BASEAB|3	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+4	BONUS:COMBAT|BASEAB|3	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 5	BONUS:COMBAT|BASEAB|4
-6	BONUS:COMBAT|BASEAB|5	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+6	BONUS:COMBAT|BASEAB|5	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 7	BONUS:COMBAT|BASEAB|6
-8	BONUS:COMBAT|BASEAB|7	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+8	BONUS:COMBAT|BASEAB|7	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 9	BONUS:COMBAT|BASEAB|8
-10	BONUS:COMBAT|BASEAB|9	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+10	BONUS:COMBAT|BASEAB|9	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 11	BONUS:COMBAT|BASEAB|10
-12	BONUS:COMBAT|BASEAB|11	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+12	BONUS:COMBAT|BASEAB|11	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 13	BONUS:COMBAT|BASEAB|12
-14	BONUS:COMBAT|BASEAB|13	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+14	BONUS:COMBAT|BASEAB|13	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 15	BONUS:COMBAT|BASEAB|14
-16	BONUS:COMBAT|BASEAB|15	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+16	BONUS:COMBAT|BASEAB|15	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 17	BONUS:COMBAT|BASEAB|16
-18	BONUS:COMBAT|BASEAB|17	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+18	BONUS:COMBAT|BASEAB|17	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 19	BONUS:COMBAT|BASEAB|18
-20	BONUS:COMBAT|BASEAB|19	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:FEAT|POOL|1
+20	BONUS:COMBAT|BASEAB|19	BONUS:ABILITYPOOL|Warrior Bonus Feat|1	ABILITY:Special Ability|AUTOMATIC|Warrior Weapon Specialization Bonus
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Scout	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:ScoutLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|ScoutLVL|CL				FACT:Abb|Sct	CSKILL:Animal Empathy|Climb|Move Silently|Notice|Planetary Survival|Planetology|Tracking
+CLASS:Scout	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:ScoutLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|ScoutLVL|CL				FACT:Abb|Sct	STARTSKILLPTS:8	CSKILL:Animal Empathy|Climb|Handle Animal|Move Silently|Notice|Planetary Survival|Planetology|Tracking
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0
+1	BONUS:COMBAT|BASEAB|0	ABILITY:FEAT|AUTOMATIC|Weapon Focus	BONUS:SKILL|Animal Empathy|CL	BONUS:SKILL|Climb|CL	BONUS:SKILL|Handle Animal|CL	BONUS:SKILL|Move Silently|CL	BONUS:SKILL|Notice|CL	BONUS:SKILL|Planetary Survival|CL	BONUS:SKILL|Planetology|CL	BONUS:SKILL|Tracking|CL
 2	BONUS:COMBAT|BASEAB|0
 3	BONUS:COMBAT|BASEAB|1
 4	BONUS:COMBAT|BASEAB|2
@@ -85,10 +85,10 @@ CLASS:Scout	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:ScoutLVL|0	BONUS:ABILITYPOOL
 20	BONUS:COMBAT|BASEAB|12
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Engineer	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:EngineerLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|EngineerLVL|CL				FACT:Abb|Eng	CSKILL:Jury Rig|Maneuver in Zero G|Notice|Repair Electrical|Repair Life Support|Repair Mechanical|Repair Nuclear Engine|Repair Rocket Hull
+CLASS:Engineer	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:EngineerLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|EngineerLVL|CL				FACT:Abb|Eng	STARTSKILLPTS:8	CSKILL:Jury Rig|Maneuver in Zero G|Notice|Repair Electrical|Repair Life Support|Repair Mechanical|Repair Nuclear Engine|Repair Rocket Hull
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0
+1	BONUS:COMBAT|BASEAB|0	ABILITY:FEAT|AUTOMATIC|Weapon Focus|Improved Improvised Weapon
 2	BONUS:COMBAT|BASEAB|0
 3	BONUS:COMBAT|BASEAB|0
 4	BONUS:COMBAT|BASEAB|1
@@ -110,19 +110,19 @@ CLASS:Engineer	HD:8		TYPE:Base.PC	MAXLEVEL:20			DEFINE:EngineerLVL|0	BONUS:ABILI
 20	BONUS:COMBAT|BASEAB|6
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RogueLVL|CL				FACT:Abb|Rog	CSKILL:Bypass Security|Climb|Fast Talk / Convince|Hide|Move Silently|Notice|Open Lock|Pick Pocket
+CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|RogueLVL|CL				FACT:Abb|Rog	STARTSKILLPTS:8	CSKILL:Bypass Security|Climb|Fast Talk / Convince|Hide|Move Silently|Notice|Open Lock|Pick Pocket
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0
+1	BONUS:COMBAT|BASEAB|0	ABILITY:FEAT|AUTOMATIC|Weapon Focus	ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Career Rules Note ~ Rogue	BONUS:VAR|SneakAttackDice|(CL+1)/2	BONUS:SKILL|Bypass Security|2	BONUS:SKILL|Climb|2	BONUS:SKILL|Fast Talk / Convince|2	BONUS:SKILL|Hide|2	BONUS:SKILL|Move Silently|2	BONUS:SKILL|Notice|2	BONUS:SKILL|Open Lock|2	BONUS:SKILL|Pick Pocket|2
 2	BONUS:COMBAT|BASEAB|0
 3	BONUS:COMBAT|BASEAB|1
-4	BONUS:COMBAT|BASEAB|1
+4	BONUS:COMBAT|BASEAB|1	BONUS:VAR|UncannyDodge|2	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
 5	BONUS:COMBAT|BASEAB|2
 6	BONUS:COMBAT|BASEAB|2
 7	BONUS:COMBAT|BASEAB|3
 8	BONUS:COMBAT|BASEAB|3
 9	BONUS:COMBAT|BASEAB|4
-10	BONUS:COMBAT|BASEAB|4
+10	BONUS:COMBAT|BASEAB|4	BONUS:ABILITYPOOL|Rogue Special Ability|(CL-7)/3
 11	BONUS:COMBAT|BASEAB|5
 12	BONUS:COMBAT|BASEAB|5
 13	BONUS:COMBAT|BASEAB|6
@@ -135,10 +135,10 @@ CLASS:Rogue	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:RogueLVL|0	BONUS:ABILITYPOOL
 20	BONUS:COMBAT|BASEAB|9
 
 # Class Name	Hit Dice	Type			Max Level	Ex Class			Source Page			Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	FACT
-CLASS:Medic	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:MedicLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|MedicLVL|CL				FACT:Abb|Med	CSKILL:Diagnose|Life Suspension Technology|Treat Critical Wounds|Treat Disease|Treat Light Wounds|Treat Poisoning|Treat Serious Wounds|Treat Stun / Paralysis
+CLASS:Medic	HD:6		TYPE:Base.PC	MAXLEVEL:20			DEFINE:MedicLVL|0	BONUS:ABILITYPOOL|FEAT|1			BONUS:VAR|MedicLVL|CL				FACT:Abb|Med	STARTSKILLPTS:8	CSKILL:Diagnose|Life Suspension Technology|Treat Critical Wounds|Treat Disease|Treat Light Wounds|Treat Poisoning|Treat Serious Wounds|Treat Stun / Paralysis
 
 ###Block: BAB
-1	BONUS:COMBAT|BASEAB|0
+1	BONUS:COMBAT|BASEAB|0	ABILITY:FEAT|AUTOMATIC|Weapon Focus
 2	BONUS:COMBAT|BASEAB|0
 3	BONUS:COMBAT|BASEAB|0
 4	BONUS:COMBAT|BASEAB|1
