@@ -245,7 +245,7 @@ ABILITYCATEGORY:Special Ability	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONAL
 PREVIEWDIR:solar_legends
 PREVIEWSHEET:Standard.htm.ftl
 
-OUTPUTSHEET:DIRECTORY|solar_legends
+OUTPUTSHEET:DIRECTORY|solar_legends/solar_legends
 OUTPUTSHEET:DEFAULT.PDF|csheet_solar_legends_std.xslt
 OUTPUTSHEET:DEFAULT.HTM|csheet_solar_legends_std.htm.ftl
 OUTPUTSHEET:DEFAULT.TXT|csheet_plain.TXT
