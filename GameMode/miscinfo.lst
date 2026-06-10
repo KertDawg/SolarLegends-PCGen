@@ -54,7 +54,7 @@ BONUSSTACKS:Defense.Dodge.Circumstance.NotRanged.NotFlatFooted
 # Tabs defined
 TAB:CLASS			NAME:in_class				CONTEXT:tabpages\tabclasses.html
 TAB:DESCRIPTION		NAME:in_descrip				CONTEXT:tabpages\tabdescription.html
-TAB:DOMAINS			NAME:in_summary		VISIBLE:NO	CONTEXT:tabpages\tabdomains.html
+TAB:DOMAINS			NAME:in_domains		VISIBLE:NO	CONTEXT:tabpages\tabdomains.html
 TAB:FEATS			NAME:in_feats				CONTEXT:tabpages\tabfeatsandabilities.html
 TAB:INVENTORY		NAME:in_inventory				CONTEXT:tabpages\tabinventory.html
 TAB:RACE			NAME:in_race				CONTEXT:tabpages\tabraces.html
@@ -235,18 +235,20 @@ WEAPONREACH:(RACEREACH+(max(0,REACH-5)))*REACHMULT
 
 ABILITYCATEGORY:FEAT		VISIBLE:YES		EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT	PLURAL:Feats	DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Warrior Bonus Feat	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	CATEGORY:FEAT	TYPE:WarriorCombatFeat	PLURAL:Warrior Bonus Feats	DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Warrior Weapon Specialization Bonus	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	CATEGORY:Special Ability	TYPE:Class.SpecialAbility.WeaponSpecialization	PLURAL:Warrior Weapon Specialization Bonuses	DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Rogue Special Ability	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	CATEGORY:Rogue Special Ability	PLURAL:Rogue Special Abilities	DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Special Ability	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability
 #ABILITYCATEGORY:Internal	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Internal
 #ABILITYCATEGORY:Mutation	VISIBLE:NO		EDITABLE:NO		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Mutation
 ###COMMENT: Internal Category is for all hidden abilities.
 
+PREVIEWDIR:solar_legends
+PREVIEWSHEET:Standard.htm.ftl
 
-#PREVIEWDIR:d20/modern
-#PREVIEWSHEET:Standard.htm.ftl
-
-#OUTPUTSHEET:DIRECTORY|d20/solar_legends
-#OUTPUTSHEET:DEFAULT.PDF|csheet_solar_legends_std.xslt
-#OUTPUTSHEET:DEFAULT.HTM|csheet_solarlegends_std.html
+OUTPUTSHEET:DIRECTORY|solar_legends
+OUTPUTSHEET:DEFAULT.PDF|csheet_solar_legends_std.xslt
+OUTPUTSHEET:DEFAULT.HTM|csheet_solar_legends_std.htm.ftl
+OUTPUTSHEET:DEFAULT.TXT|csheet_plain.TXT
 
 INFOSHEET:SUMMARY|data/solar_legends/solar_legends/solar_legends_info.html.ftl
 #INFOSHEET:SKILLS|preview/skills/35e_skills.html
